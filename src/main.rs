@@ -1,7 +1,13 @@
 use std::collections::HashMap;
 
-struct HydraStore {
+struct KVStore {
     store: HashMap<String, String>,
+}
+
+impl KVStore {
+    fn set() {}
+    fn get() {}
+    fn remove() {}
 }
 
 fn main() {
