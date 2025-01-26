@@ -1,7 +1,9 @@
 [package]
-name = "hydra_table"
+name = "Witchcraft"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+clap = { version = "4.5.27", features = ["derive"] }
+thiserror = "2.0.11"
 
